@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F860A3B1CE170270081E00C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F860A3A1CE170270081E00C /* main.m */; };
+		3F860A3E1CE170270081E00C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F860A3D1CE170270081E00C /* AppDelegate.m */; };
+		3F860A411CE170270081E00C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F860A401CE170270081E00C /* ViewController.m */; };
+		3F860A441CE170270081E00C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F860A421CE170270081E00C /* Main.storyboard */; };
+		3F860A461CE170270081E00C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F860A451CE170270081E00C /* Assets.xcassets */; };
+		3F860A491CE170270081E00C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F860A471CE170270081E00C /* LaunchScreen.storyboard */; };
+		3F860A541CE170280081E00C /* LTHNewspaperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F860A531CE170280081E00C /* LTHNewspaperTests.m */; };
+		3F860A5F1CE170280081E00C /* LTHNewspaperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F860A5E1CE170280081E00C /* LTHNewspaperUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F860A501CE170280081E00C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F860A2E1CE170270081E00C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F860A351CE170270081E00C;
+			remoteInfo = LTHNewspaper;
+		};
+		3F860A5B1CE170280081E00C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F860A2E1CE170270081E00C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F860A351CE170270081E00C;
+			remoteInfo = LTHNewspaper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F860A361CE170270081E00C /* LTHNewspaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTHNewspaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F860A3A1CE170270081E00C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F860A3C1CE170270081E00C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F860A3D1CE170270081E00C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F860A3F1CE170270081E00C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F860A401CE170270081E00C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F860A431CE170270081E00C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F860A451CE170270081E00C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F860A481CE170270081E00C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F860A4A1CE170270081E00C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F860A4F1CE170280081E00C /* LTHNewspaperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTHNewspaperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F860A531CE170280081E00C /* LTHNewspaperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTHNewspaperTests.m; sourceTree = "<group>"; };
+		3F860A551CE170280081E00C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F860A5A1CE170280081E00C /* LTHNewspaperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTHNewspaperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F860A5E1CE170280081E00C /* LTHNewspaperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTHNewspaperUITests.m; sourceTree = "<group>"; };
+		3F860A601CE170280081E00C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F860A331CE170270081E00C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F860A4C1CE170280081E00C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F860A571CE170280081E00C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F860A2D1CE170270081E00C = {
+			isa = PBXGroup;
+			children = (
+				3F860A381CE170270081E00C /* LTHNewspaper */,
+				3F860A521CE170280081E00C /* LTHNewspaperTests */,
+				3F860A5D1CE170280081E00C /* LTHNewspaperUITests */,
+				3F860A371CE170270081E00C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F860A371CE170270081E00C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F860A361CE170270081E00C /* LTHNewspaper.app */,
+				3F860A4F1CE170280081E00C /* LTHNewspaperTests.xctest */,
+				3F860A5A1CE170280081E00C /* LTHNewspaperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F860A381CE170270081E00C /* LTHNewspaper */ = {
+			isa = PBXGroup;
+			children = (
+				3F860A3C1CE170270081E00C /* AppDelegate.h */,
+				3F860A3D1CE170270081E00C /* AppDelegate.m */,
+				3F860A3F1CE170270081E00C /* ViewController.h */,
+				3F860A401CE170270081E00C /* ViewController.m */,
+				3F860A421CE170270081E00C /* Main.storyboard */,
+				3F860A451CE170270081E00C /* Assets.xcassets */,
+				3F860A471CE170270081E00C /* LaunchScreen.storyboard */,
+				3F860A4A1CE170270081E00C /* Info.plist */,
+				3F860A391CE170270081E00C /* Supporting Files */,
+			);
+			path = LTHNewspaper;
+			sourceTree = "<group>";
+		};
+		3F860A391CE170270081E00C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F860A3A1CE170270081E00C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F860A521CE170280081E00C /* LTHNewspaperTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F860A531CE170280081E00C /* LTHNewspaperTests.m */,
+				3F860A551CE170280081E00C /* Info.plist */,
+			);
+			path = LTHNewspaperTests;
+			sourceTree = "<group>";
+		};
+		3F860A5D1CE170280081E00C /* LTHNewspaperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F860A5E1CE170280081E00C /* LTHNewspaperUITests.m */,
+				3F860A601CE170280081E00C /* Info.plist */,
+			);
+			path = LTHNewspaperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F860A351CE170270081E00C /* LTHNewspaper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F860A631CE170280081E00C /* Build configuration list for PBXNativeTarget "LTHNewspaper" */;
+			buildPhases = (
+				3F860A321CE170270081E00C /* Sources */,
+				3F860A331CE170270081E00C /* Frameworks */,
+				3F860A341CE170270081E00C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTHNewspaper;
+			productName = LTHNewspaper;
+			productReference = 3F860A361CE170270081E00C /* LTHNewspaper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F860A4E1CE170280081E00C /* LTHNewspaperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F860A661CE170280081E00C /* Build configuration list for PBXNativeTarget "LTHNewspaperTests" */;
+			buildPhases = (
+				3F860A4B1CE170280081E00C /* Sources */,
+				3F860A4C1CE170280081E00C /* Frameworks */,
+				3F860A4D1CE170280081E00C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F860A511CE170280081E00C /* PBXTargetDependency */,
+			);
+			name = LTHNewspaperTests;
+			productName = LTHNewspaperTests;
+			productReference = 3F860A4F1CE170280081E00C /* LTHNewspaperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F860A591CE170280081E00C /* LTHNewspaperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F860A691CE170280081E00C /* Build configuration list for PBXNativeTarget "LTHNewspaperUITests" */;
+			buildPhases = (
+				3F860A561CE170280081E00C /* Sources */,
+				3F860A571CE170280081E00C /* Frameworks */,
+				3F860A581CE170280081E00C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F860A5C1CE170280081E00C /* PBXTargetDependency */,
+			);
+			name = LTHNewspaperUITests;
+			productName = LTHNewspaperUITests;
+			productReference = 3F860A5A1CE170280081E00C /* LTHNewspaperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F860A2E1CE170270081E00C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "哒哒哒";
+				TargetAttributes = {
+					3F860A351CE170270081E00C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 5ZR7B9C2HQ;
+					};
+					3F860A4E1CE170280081E00C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 5ZR7B9C2HQ;
+						TestTargetID = 3F860A351CE170270081E00C;
+					};
+					3F860A591CE170280081E00C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 5ZR7B9C2HQ;
+						TestTargetID = 3F860A351CE170270081E00C;
+					};
+				};
+			};
+			buildConfigurationList = 3F860A311CE170270081E00C /* Build configuration list for PBXProject "LTHNewspaper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F860A2D1CE170270081E00C;
+			productRefGroup = 3F860A371CE170270081E00C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F860A351CE170270081E00C /* LTHNewspaper */,
+				3F860A4E1CE170280081E00C /* LTHNewspaperTests */,
+				3F860A591CE170280081E00C /* LTHNewspaperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F860A341CE170270081E00C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F860A491CE170270081E00C /* LaunchScreen.storyboard in Resources */,
+				3F860A461CE170270081E00C /* Assets.xcassets in Resources */,
+				3F860A441CE170270081E00C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F860A4D1CE170280081E00C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F860A581CE170280081E00C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F860A321CE170270081E00C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F860A411CE170270081E00C /* ViewController.m in Sources */,
+				3F860A3E1CE170270081E00C /* AppDelegate.m in Sources */,
+				3F860A3B1CE170270081E00C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F860A4B1CE170280081E00C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F860A541CE170280081E00C /* LTHNewspaperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F860A561CE170280081E00C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F860A5F1CE170280081E00C /* LTHNewspaperUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F860A511CE170280081E00C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F860A351CE170270081E00C /* LTHNewspaper */;
+			targetProxy = 3F860A501CE170280081E00C /* PBXContainerItemProxy */;
+		};
+		3F860A5C1CE170280081E00C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F860A351CE170270081E00C /* LTHNewspaper */;
+			targetProxy = 3F860A5B1CE170280081E00C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F860A421CE170270081E00C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F860A431CE170270081E00C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F860A471CE170270081E00C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F860A481CE170270081E00C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F860A611CE170280081E00C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F860A621CE170280081E00C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F860A641CE170280081E00C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LTHNewspaper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.dada.LTHNewspaper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F860A651CE170280081E00C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LTHNewspaper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.dada.LTHNewspaper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F860A671CE170280081E00C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LTHNewspaperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.dada.LTHNewspaperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LTHNewspaper.app/LTHNewspaper";
+			};
+			name = Debug;
+		};
+		3F860A681CE170280081E00C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LTHNewspaperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.dada.LTHNewspaperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LTHNewspaper.app/LTHNewspaper";
+			};
+			name = Release;
+		};
+		3F860A6A1CE170280081E00C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LTHNewspaperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.dada.LTHNewspaperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LTHNewspaper;
+			};
+			name = Debug;
+		};
+		3F860A6B1CE170280081E00C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LTHNewspaperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.dada.LTHNewspaperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LTHNewspaper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F860A311CE170270081E00C /* Build configuration list for PBXProject "LTHNewspaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F860A611CE170280081E00C /* Debug */,
+				3F860A621CE170280081E00C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F860A631CE170280081E00C /* Build configuration list for PBXNativeTarget "LTHNewspaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F860A641CE170280081E00C /* Debug */,
+				3F860A651CE170280081E00C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F860A661CE170280081E00C /* Build configuration list for PBXNativeTarget "LTHNewspaperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F860A671CE170280081E00C /* Debug */,
+				3F860A681CE170280081E00C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F860A691CE170280081E00C /* Build configuration list for PBXNativeTarget "LTHNewspaperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F860A6A1CE170280081E00C /* Debug */,
+				3F860A6B1CE170280081E00C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F860A2E1CE170270081E00C /* Project object */;
+}
